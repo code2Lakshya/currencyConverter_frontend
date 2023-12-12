@@ -62,8 +62,8 @@ const Convertor = () => {
                     </div>
                 </div>
                 <SelectorBox heading='from' currencies={currencies} userInput={userInput} setUserInput={setUserInput} />
-                <div id='arrow-container' onClick={switchCurrencyHandler}>
-                    <span>
+                <div id='arrow-container'>
+                    <span  onClick={switchCurrencyHandler}>
                         <FaArrowUpLong />
                         <FaArrowDownLong />
                     </span>
