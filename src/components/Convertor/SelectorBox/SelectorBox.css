@@ -1,0 +1,18 @@
+.selector-box{
+    width: 100%;
+}
+.selector-box > h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(69, 71, 69);
+    margin: 0 0 5px;
+    text-transform: capitalize;
+}
+.selector-box select{
+    width: 100%;
+    border: 1px solid rgb(69, 71, 69);
+    display: flex;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
