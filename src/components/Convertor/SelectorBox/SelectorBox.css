@@ -1,5 +1,6 @@
 .selector-box{
     width: 100%;
+    position: relative;
 }
 .selector-box > h3{
     font-size: 14px;
@@ -15,4 +16,13 @@
     padding: 5px 10px;
     font-size: 17px;
     font-weight: 500;
+    background-color: transparent;
+    appearance: none;
+}
+.selector-box::after{
+    content:'˯';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
 }
